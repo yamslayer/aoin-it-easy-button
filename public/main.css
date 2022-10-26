@@ -5,10 +5,7 @@ body {
   background-image: url("https://i.imgur.com/PFnfpkq.png");
   text-align: center;
   font-weight: 700;
-}
-
-#hello-wrapper {
-  color: #fff;
+	color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -18,8 +15,8 @@ body {
   overflow: hidden;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 50px;
-  animation:
-  animated-text 1.2s steps(17, end) 1s 1 normal both
+  /*animation:
+  animated-text 1.2s steps(17, end) 1s 1 normal both*/
 }
 
 /* text animation */
@@ -32,6 +29,12 @@ body {
   }
 }
 
-#particles-js {
-  height: 100vh;
+.cta {
+	margin: 0;
+  position: absolute;
+  top: 50%;
+	left: 0;
+	right: 0;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
